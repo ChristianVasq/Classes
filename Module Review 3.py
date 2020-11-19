@@ -1,0 +1,10 @@
+namestring = input('Enter a name: ')
+animalstring = input('Animal: ')
+selectnumber = input("Type any number: ")
+selectsecondnumber = input('A smaller number: ')
+animalbodypart = input( "Any animal body part: ")
+
+firstline = print("{0} little {1}s jumping on the bed,".format(selectnumber, animalstring) )
+secondline = print("{0} fell down and bumped their {1},".format(selectsecondnumber, animalbodypart))
+thirdline = print("{0} called the doctor and the doctor said,".format(namestring))
+fourthline = print("No more {0}s jumping on the bed!".format(animalstring))
