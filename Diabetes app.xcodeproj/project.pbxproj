@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E133900D23FE07F500E013EE /* MyVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133900C23FE07F500E013EE /* MyVideoViewController.swift */; };
+		E133900F23FE253800E013EE /* SymptomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E133900E23FE253800E013EE /* SymptomsViewController.swift */; };
+		E1339011240365E300E013EE /* SympViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1339010240365E300E013EE /* SympViewController.swift */; };
+		E1375EDE23F0DB0800E4A6B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375EDD23F0DB0800E4A6B3 /* AppDelegate.swift */; };
+		E1375EE023F0DB0800E4A6B3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375EDF23F0DB0800E4A6B3 /* SceneDelegate.swift */; };
+		E1375EE223F0DB0800E4A6B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375EE123F0DB0800E4A6B3 /* ViewController.swift */; };
+		E1375EE523F0DB0800E4A6B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1375EE323F0DB0800E4A6B3 /* Main.storyboard */; };
+		E1375EE723F0DB0A00E4A6B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1375EE623F0DB0A00E4A6B3 /* Assets.xcassets */; };
+		E1375EEA23F0DB0A00E4A6B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1375EE823F0DB0A00E4A6B3 /* LaunchScreen.storyboard */; };
+		E1375EF523F0DB0A00E4A6B3 /* Diabetes_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375EF423F0DB0A00E4A6B3 /* Diabetes_appTests.swift */; };
+		E1375F0023F0DB0A00E4A6B3 /* Diabetes_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1375EFF23F0DB0A00E4A6B3 /* Diabetes_appUITests.swift */; };
+		E1DADF162412E92300E34722 /* HealthConcernsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DADF152412E92300E34722 /* HealthConcernsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1375EF123F0DB0A00E4A6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1375ED223F0DB0800E4A6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1375ED923F0DB0800E4A6B3;
+			remoteInfo = "Diabetes app";
+		};
+		E1375EFC23F0DB0A00E4A6B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1375ED223F0DB0800E4A6B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1375ED923F0DB0800E4A6B3;
+			remoteInfo = "Diabetes app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E133900C23FE07F500E013EE /* MyVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyVideoViewController.swift; sourceTree = "<group>"; };
+		E133900E23FE253800E013EE /* SymptomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymptomsViewController.swift; sourceTree = "<group>"; };
+		E1339010240365E300E013EE /* SympViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SympViewController.swift; sourceTree = "<group>"; };
+		E1375EDA23F0DB0800E4A6B3 /* Diabetes app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diabetes app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1375EDD23F0DB0800E4A6B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1375EDF23F0DB0800E4A6B3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E1375EE123F0DB0800E4A6B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1375EE423F0DB0800E4A6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1375EE623F0DB0A00E4A6B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1375EE923F0DB0A00E4A6B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1375EEB23F0DB0A00E4A6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1375EF023F0DB0A00E4A6B3 /* Diabetes appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diabetes appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1375EF423F0DB0A00E4A6B3 /* Diabetes_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diabetes_appTests.swift; sourceTree = "<group>"; };
+		E1375EF623F0DB0A00E4A6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1375EFB23F0DB0A00E4A6B3 /* Diabetes appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diabetes appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1375EFF23F0DB0A00E4A6B3 /* Diabetes_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diabetes_appUITests.swift; sourceTree = "<group>"; };
+		E1375F0123F0DB0A00E4A6B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DADF152412E92300E34722 /* HealthConcernsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthConcernsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1375ED723F0DB0800E4A6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1375EED23F0DB0A00E4A6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1375EF823F0DB0A00E4A6B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1375ED123F0DB0800E4A6B3 = {
+			isa = PBXGroup;
+			children = (
+				E1375EDC23F0DB0800E4A6B3 /* Diabetes app */,
+				E1375EF323F0DB0A00E4A6B3 /* Diabetes appTests */,
+				E1375EFE23F0DB0A00E4A6B3 /* Diabetes appUITests */,
+				E1375EDB23F0DB0800E4A6B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1375EDB23F0DB0800E4A6B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1375EDA23F0DB0800E4A6B3 /* Diabetes app.app */,
+				E1375EF023F0DB0A00E4A6B3 /* Diabetes appTests.xctest */,
+				E1375EFB23F0DB0A00E4A6B3 /* Diabetes appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1375EDC23F0DB0800E4A6B3 /* Diabetes app */ = {
+			isa = PBXGroup;
+			children = (
+				E1375EDD23F0DB0800E4A6B3 /* AppDelegate.swift */,
+				E1375EDF23F0DB0800E4A6B3 /* SceneDelegate.swift */,
+				E1375EE123F0DB0800E4A6B3 /* ViewController.swift */,
+				E1375EE323F0DB0800E4A6B3 /* Main.storyboard */,
+				E1DADF152412E92300E34722 /* HealthConcernsViewController.swift */,
+				E1339010240365E300E013EE /* SympViewController.swift */,
+				E133900E23FE253800E013EE /* SymptomsViewController.swift */,
+				E133900C23FE07F500E013EE /* MyVideoViewController.swift */,
+				E1375EE623F0DB0A00E4A6B3 /* Assets.xcassets */,
+				E1375EE823F0DB0A00E4A6B3 /* LaunchScreen.storyboard */,
+				E1375EEB23F0DB0A00E4A6B3 /* Info.plist */,
+			);
+			path = "Diabetes app";
+			sourceTree = "<group>";
+		};
+		E1375EF323F0DB0A00E4A6B3 /* Diabetes appTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1375EF423F0DB0A00E4A6B3 /* Diabetes_appTests.swift */,
+				E1375EF623F0DB0A00E4A6B3 /* Info.plist */,
+			);
+			path = "Diabetes appTests";
+			sourceTree = "<group>";
+		};
+		E1375EFE23F0DB0A00E4A6B3 /* Diabetes appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1375EFF23F0DB0A00E4A6B3 /* Diabetes_appUITests.swift */,
+				E1375F0123F0DB0A00E4A6B3 /* Info.plist */,
+			);
+			path = "Diabetes appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1375ED923F0DB0800E4A6B3 /* Diabetes app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1375F0423F0DB0A00E4A6B3 /* Build configuration list for PBXNativeTarget "Diabetes app" */;
+			buildPhases = (
+				E1375ED623F0DB0800E4A6B3 /* Sources */,
+				E1375ED723F0DB0800E4A6B3 /* Frameworks */,
+				E1375ED823F0DB0800E4A6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diabetes app";
+			productName = "Diabetes app";
+			productReference = E1375EDA23F0DB0800E4A6B3 /* Diabetes app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1375EEF23F0DB0A00E4A6B3 /* Diabetes appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1375F0723F0DB0A00E4A6B3 /* Build configuration list for PBXNativeTarget "Diabetes appTests" */;
+			buildPhases = (
+				E1375EEC23F0DB0A00E4A6B3 /* Sources */,
+				E1375EED23F0DB0A00E4A6B3 /* Frameworks */,
+				E1375EEE23F0DB0A00E4A6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1375EF223F0DB0A00E4A6B3 /* PBXTargetDependency */,
+			);
+			name = "Diabetes appTests";
+			productName = "Diabetes appTests";
+			productReference = E1375EF023F0DB0A00E4A6B3 /* Diabetes appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1375EFA23F0DB0A00E4A6B3 /* Diabetes appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1375F0A23F0DB0A00E4A6B3 /* Build configuration list for PBXNativeTarget "Diabetes appUITests" */;
+			buildPhases = (
+				E1375EF723F0DB0A00E4A6B3 /* Sources */,
+				E1375EF823F0DB0A00E4A6B3 /* Frameworks */,
+				E1375EF923F0DB0A00E4A6B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1375EFD23F0DB0A00E4A6B3 /* PBXTargetDependency */,
+			);
+			name = "Diabetes appUITests";
+			productName = "Diabetes appUITests";
+			productReference = E1375EFB23F0DB0A00E4A6B3 /* Diabetes appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1375ED223F0DB0800E4A6B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Adi & Christian";
+				TargetAttributes = {
+					E1375ED923F0DB0800E4A6B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E1375EEF23F0DB0A00E4A6B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E1375ED923F0DB0800E4A6B3;
+					};
+					E1375EFA23F0DB0A00E4A6B3 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E1375ED923F0DB0800E4A6B3;
+					};
+				};
+			};
+			buildConfigurationList = E1375ED523F0DB0800E4A6B3 /* Build configuration list for PBXProject "Diabetes app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1375ED123F0DB0800E4A6B3;
+			productRefGroup = E1375EDB23F0DB0800E4A6B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1375ED923F0DB0800E4A6B3 /* Diabetes app */,
+				E1375EEF23F0DB0A00E4A6B3 /* Diabetes appTests */,
+				E1375EFA23F0DB0A00E4A6B3 /* Diabetes appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1375ED823F0DB0800E4A6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1375EEA23F0DB0A00E4A6B3 /* LaunchScreen.storyboard in Resources */,
+				E1375EE723F0DB0A00E4A6B3 /* Assets.xcassets in Resources */,
+				E1375EE523F0DB0800E4A6B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1375EEE23F0DB0A00E4A6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1375EF923F0DB0A00E4A6B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1375ED623F0DB0800E4A6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1375EE223F0DB0800E4A6B3 /* ViewController.swift in Sources */,
+				E1DADF162412E92300E34722 /* HealthConcernsViewController.swift in Sources */,
+				E1375EDE23F0DB0800E4A6B3 /* AppDelegate.swift in Sources */,
+				E133900D23FE07F500E013EE /* MyVideoViewController.swift in Sources */,
+				E1339011240365E300E013EE /* SympViewController.swift in Sources */,
+				E133900F23FE253800E013EE /* SymptomsViewController.swift in Sources */,
+				E1375EE023F0DB0800E4A6B3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1375EEC23F0DB0A00E4A6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1375EF523F0DB0A00E4A6B3 /* Diabetes_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1375EF723F0DB0A00E4A6B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1375F0023F0DB0A00E4A6B3 /* Diabetes_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1375EF223F0DB0A00E4A6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1375ED923F0DB0800E4A6B3 /* Diabetes app */;
+			targetProxy = E1375EF123F0DB0A00E4A6B3 /* PBXContainerItemProxy */;
+		};
+		E1375EFD23F0DB0A00E4A6B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1375ED923F0DB0800E4A6B3 /* Diabetes app */;
+			targetProxy = E1375EFC23F0DB0A00E4A6B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1375EE323F0DB0800E4A6B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1375EE423F0DB0800E4A6B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1375EE823F0DB0A00E4A6B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1375EE923F0DB0A00E4A6B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1375F0223F0DB0A00E4A6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1375F0323F0DB0A00E4A6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1375F0523F0DB0A00E4A6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diabetes app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Dev.Diabetes-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1375F0623F0DB0A00E4A6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diabetes app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Dev.Diabetes-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1375F0823F0DB0A00E4A6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diabetes appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Dev.Diabetes-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diabetes app.app/Diabetes app";
+			};
+			name = Debug;
+		};
+		E1375F0923F0DB0A00E4A6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diabetes appTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Dev.Diabetes-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diabetes app.app/Diabetes app";
+			};
+			name = Release;
+		};
+		E1375F0B23F0DB0A00E4A6B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diabetes appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Dev.Diabetes-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Diabetes app";
+			};
+			name = Debug;
+		};
+		E1375F0C23F0DB0A00E4A6B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Diabetes appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "App-Dev.Diabetes-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Diabetes app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1375ED523F0DB0800E4A6B3 /* Build configuration list for PBXProject "Diabetes app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1375F0223F0DB0A00E4A6B3 /* Debug */,
+				E1375F0323F0DB0A00E4A6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1375F0423F0DB0A00E4A6B3 /* Build configuration list for PBXNativeTarget "Diabetes app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1375F0523F0DB0A00E4A6B3 /* Debug */,
+				E1375F0623F0DB0A00E4A6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1375F0723F0DB0A00E4A6B3 /* Build configuration list for PBXNativeTarget "Diabetes appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1375F0823F0DB0A00E4A6B3 /* Debug */,
+				E1375F0923F0DB0A00E4A6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1375F0A23F0DB0A00E4A6B3 /* Build configuration list for PBXNativeTarget "Diabetes appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1375F0B23F0DB0A00E4A6B3 /* Debug */,
+				E1375F0C23F0DB0A00E4A6B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1375ED223F0DB0800E4A6B3 /* Project object */;
+}
